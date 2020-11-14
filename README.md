@@ -1,3 +1,64 @@
+React is a library, unlike angularJS which is a framework.
+
+every React application has atleast 1 or more component clubbed together into one page UI application.
+
+react basic syntax of a component:
+
+'''
+class Tweet {
+	state = {};
+	render() {
+	
+	}
+}
+'''
+
+1) create a javascript class
+2) state will have data we want to display when the component is rendered.
+3) render() method describes what the UI should look like. The output of render() will be a react element (virtual DOM) which is a simple plain javascript object that maps to a DOM element.
+So unlike vanilla javascript or jQuery we dont have to directly manipulate DOM elements by attaching event handlers directly to DOM elements. In react, we'll only manipulate virtual DOM elements (react elements). Thats why By name - react means it 'reacts' to state change and update the state change to DOM elements.
+
+
+Get started:
+- install latest stable version of nodeJS.
+- install the react app package by command - "npm i create-react-app" (source - https://github.com/facebook/create-react-app)
+npm is package manager for javacript environment (nodeJS).
+i for install
+
+- verify the package by command - "npm -g ls"
+- install latest stable version of visual studio.
+- click on 'extensions' on right hand side of visual studio startup menu.
+- search for 'simple react snippets' install it. (to autocomplete code recommendations).
+- search for another 'prettier - code formatter' install it. For this go to settings, enable 'format on save' to automatically save while you edit.
+- create a react app by putting CLI command - "npm init react-app arnav-react-app"
+Following it will install:
+1) a lightweight development server.
+2) webpacks - to bundle the file.
+3) Babel - to compile javascript code. mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript that can be run by older JavaScript engines.
+(visit https://babeljs.io/repl to test react JSX code online).
+- After successful creation, it'll say 'Happy Hacking!'.
+- cd arnav-react-app/
+- start the server b - "npm start", it'll open the browser with localhost:3000 which means the dev server is running.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +129,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
